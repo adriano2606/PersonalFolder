@@ -1,0 +1,39 @@
+<meta chartset="UF-8">
+
+<script>
+
+	function pulaLinha() {
+
+		document.write("<br>");
+		
+	}
+
+	function mostra(text) {
+
+		document.write(text);
+		pulaLinha();
+
+	}
+
+
+	var totalFamiliares = parseInt(prompt("Qual a quantidade de familiares?"));
+	var qntPrompt = totalFamiliares;
+	var somaIdades = 0;
+
+	while (qntPrompt > 0 ) {
+
+	var idadeFamiliares = parseInt(prompt("Qual a idade do familiar?"));
+	somaIdades = somaIdades + idadeFamiliares;
+	qntPrompt = qntPrompt - 1;
+
+	}
+
+	mostra("O total de familiares é " + totalFamiliares + " que somam " + somaIdades + " de idade, com um média de: " + (somaIdades/totalFamiliares));
+
+
+
+
+
+</script>
+
+

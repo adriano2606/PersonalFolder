@@ -1,0 +1,37 @@
+<meta charset="UTF-8">
+
+<script>
+
+	function pulaLinha() {
+
+		document.write("<br>");
+	}
+
+	function mostra(text) {
+
+		document.write(text);
+		pulaLinha();
+
+	}
+
+	var numeropensado = Math.round(Math.random() * 20);
+	var contador = 1;
+
+	while (contador <= 3 ) {
+	var chute = parseInt(prompt("Qual o seu chute?"));
+
+	if (chute == numeropensado) {
+
+		mostra("Parabéns! Você acertou o número " + numeropensado + " e vai levar a mega-sena da virada: R$1.000.000!");
+		alert("Parabéns!! Você acertou o número " + numeropensado+ "!!!!!");
+		break; //quebra o looping. Também é possível dar um valor maior que o máximo do contador.
+
+		} else {
+
+			alert("Infelizmente, você errou! O número correto era " + numeropensado);
+			numeropensado = Math.round(Math.random() * 20);
+			contador = contador + 1;
+		}
+	}
+
+</script>

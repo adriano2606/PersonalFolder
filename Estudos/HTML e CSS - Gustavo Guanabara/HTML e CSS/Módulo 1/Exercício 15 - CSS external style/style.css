@@ -1,0 +1,16 @@
+body {
+    background: lightgoldenrodyellow;
+    color:chocolate;
+    font-size: 12pt;
+    font-family: arial;
+}
+
+h1 {
+    color:brown;
+}
+
+a {
+    color:brown;
+    text-decoration: none;
+
+}

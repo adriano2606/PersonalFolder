@@ -1,0 +1,38 @@
+<meta charset="UTF-8">
+
+<script>
+
+    var ingredientes = [];
+
+    var quantidade = parseInt(prompt("Informe a quantidade de ingredientes desejados: "));
+
+    var contador = 1;
+
+    while (contador <= quantidade) {
+
+        var nomeIngrediente = prompt("Informe o nome do ingrediente:");
+
+        var achou = false;
+
+        for (var posicao = 0; posicao < ingredientes.length; posicao++) {
+
+            if (nomeIngrediente == ingredientes[posicao]){
+
+                alert("Ingrediente repetido! Por favor, informe outro");
+                achou = true;
+                break;
+            }
+        }
+
+            if (achou == false) {
+
+                ingredientes.push(nomeIngrediente);
+                contador++;
+
+            }
+
+    }
+
+    console.log(ingredientes);
+    
+</script>

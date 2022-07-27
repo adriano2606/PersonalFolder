@@ -1,0 +1,50 @@
+<meta charset="UTF-8">
+
+<script>
+
+	function pulaLinha(){
+
+		document.write("<br>");
+	}
+
+	function mostra(texto) {
+
+		document.write(texto);
+		pulaLinha
+	}
+
+	var loginDB = "adriano"
+	var senhaDB = "123"
+
+	var tentativaMaxima = 3;
+	var tentativaAtual = 1;
+
+	while (tentativaAtual <= tentativaMaxima) {
+
+		var loginInformado = prompt("Informe seu LOGIN:");
+		var senhaInformada = prompt("Informe sua SENHA:");
+
+		if (loginInformado == loginDB && senhaInformada == senhaDB){
+
+			mostra("Login efetuado com sucesso, " + loginDB);
+			tentativaAtual = tentativaMaxima;
+
+		} else {
+
+			if (tentativaAtual == tentativaMaxima) {
+
+				mostra("Você excedeu o número de tentativas! Por gentileza, contate o administrador.");
+
+			} else {
+
+				alert("Credenciais inválidas. Por gentileza, tente novamente!");
+
+			}
+		}
+
+		tentativaAtual = tentativaAtual + 1;
+
+	}
+
+
+</script>
