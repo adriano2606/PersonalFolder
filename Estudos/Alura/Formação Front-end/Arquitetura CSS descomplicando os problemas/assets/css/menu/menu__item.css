@@ -1,0 +1,3 @@
+.menu__item:last-child .menu__link { /* Seleciona o último item do menu + o link*/
+    margin-right: 0px;
+}
