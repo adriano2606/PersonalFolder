@@ -1,0 +1,9 @@
+.receita {
+    background-color: #fdfdfd;
+    width: 286px;
+    transition: .2s ease-in-out 0s;
+}
+
+.receita:hover{
+    transform: scale(1.1);
+}
