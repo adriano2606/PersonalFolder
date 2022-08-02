@@ -1,4 +1,8 @@
 .hero__img {
+    background-image: url(../../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
     width: 100%;
     height: calc(100vh - 72px);
 }
