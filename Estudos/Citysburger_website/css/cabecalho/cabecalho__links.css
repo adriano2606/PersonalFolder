@@ -1,0 +1,9 @@
+.cabecalho__links {
+    display: flex;
+}
+
+.cabecalho__link__item {
+    text-decoration: none;
+    margin-left: 1.2em;
+    color: var(--cor4);
+}
