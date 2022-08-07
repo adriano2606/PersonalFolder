@@ -1,0 +1,8 @@
+.cabecalhoPrincipal .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalhoPrincipal-nav {
+    display: flex;
+}
