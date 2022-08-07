@@ -32,7 +32,6 @@ body {
 	text-decoration: none;
 	transition: .5s;
 	display: block;
-
 	border-bottom: 1px solid #9799A6;
 }
 
@@ -52,7 +51,6 @@ body {
 	height: 100px;
 	background-color: #FFF;
 	text-align: center;
-	margin: 1%;
 	transition: .3s;
 	box-shadow: 2px 2px 2px #CCC;
 	position: relative;
@@ -248,34 +246,27 @@ body {
 	}
 
 	.conteudoPrincipal-cursos-link:nth-child(3n) {
-		margin-right: 0;
 	}
 
 	.conteudoPrincipal-cursos-link:nth-child(3n+1) {
-		margin-left: 0;
 	}
 
 }
 
 @media(min-width: 1000px) {
 	.conteudoPrincipal-cursos-link {
-		margin: 1.333%;
 	}
 
 	.conteudoPrincipal-cursos-link:nth-child(3n) {
-		margin-right: 1.33%;
 	}
 
 	.conteudoPrincipal-cursos-link:nth-child(3n+1) {
-		margin-left: 1.333%;
 	}
 
 	.conteudoPrincipal-cursos-link:nth-child(4n) {
-		margin-right: 0;
 	}
 
 	.conteudoPrincipal-cursos-link:nth-child(4n+1) {
-		margin-left: 0;
 	}
 
 	.videoSobre-sobre {
