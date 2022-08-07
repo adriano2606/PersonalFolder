@@ -101,6 +101,7 @@
     .rodapePrincipal-patrocinadores .container {
         display: flex;
         flex-direction: column;
+        justify-content: space-around;
     }
 
     .rodapePrincipal-patrocinadores-list {
@@ -108,15 +109,14 @@
         flex-direction: column;
         height: 130px;
         justify-content: space-between;
+        margin-bottom: 25px;
     }
 
     .rodapePrincipal-contatoForm {
         width: 100%;
-    }
-
-    .rodapePrincipal-contatoForm-fieldset {
         display: flex;
         justify-content: center;
+        text-align: center;
     }
 
     .cabecalhoPrincipal-nav-link-app{
