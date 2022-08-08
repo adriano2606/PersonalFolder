@@ -1,0 +1,13 @@
+.cabecalho__nav ul {
+    display: flex;
+}
+
+.cabecalho__nav ul li{
+    margin-left: 2.5rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cabecalho__nav ul li:hover{
+    color:rgb(255, 187, 0);
+}

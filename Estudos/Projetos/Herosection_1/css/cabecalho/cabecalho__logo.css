@@ -1,0 +1,9 @@
+.cabecalho__logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.cabecalho__logo a {
+    text-decoration: none;
+    color:rgb(255, 187, 0);
+}
