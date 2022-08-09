@@ -1,0 +1,42 @@
+.hero__texto {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+}
+
+.hero__texto h1 {
+    font-size: 3.2em;
+    font-weight: bold;
+    line-height: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.yellowtext {
+    color: rgb(255, 187, 0);
+}
+
+.hero__texto p {
+    color: white;
+    font-size: 14.5px;
+    line-height: 1.5em;
+    margin-bottom: 2em;
+}
+
+.hero__texto button {
+    border-style: none;
+    background-color: #000000;
+    border-radius: 20px;
+    width: 50%;
+    padding: 15px 0;
+    font-size: 1.1em;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    color: rgb(255, 187, 0);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hero__texto button:hover {
+    transform: scale(1.1);
+    background-color: #FFFFFF;
+}

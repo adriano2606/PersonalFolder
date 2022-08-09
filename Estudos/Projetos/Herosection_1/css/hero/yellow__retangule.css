@@ -1,0 +1,8 @@
+.yellow__retangule {
+    width: 100vw;
+    height: 43vh;
+    background-color: rgb(255, 187, 0);
+    position: absolute;
+    z-index: -500;
+    bottom: 0;
+}
