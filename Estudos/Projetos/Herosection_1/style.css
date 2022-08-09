@@ -1,17 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
 
 .hero {
+    background: linear-gradient(180deg, white 50%, rgb(255, 187, 0) 50%) ;
+}
+
+.hero .container {
     display: flex;
     height: calc(100vh - 70px);
     align-items: center;
     font-family: Montserrat;
-    justify-content: space-evenly;
-
+    margin: 0px 0px 0px 9em;
 }
 
 .hero__texto {
-    flex-grow: 1;
-    margin-left: 9em;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 70px);
+    width: 100vw;
+    justify-content: center;
 }
 
 .hero__texto h1 {
@@ -26,19 +32,20 @@
     margin-right: 2em;
     line-height: 1.5em;
     font-size: 14.5px;
-    color: #3d3d3d
+    color: white;
 }
 
 .hero__texto button {
-        border-style: none;
-        background-color:rgb(255, 187, 0);
-        border-radius: 20px;
-        padding: 15px 50px;
-        font-weight: bold;
-        font-family: Montserrat, Arial, Helvetica, sans-serif;
-        color: white;
-        cursor: pointer;
-        transition: 0.3s;
+    border-style: none;
+    background-color: white;
+    border-radius: 20px;
+    width: 50%;
+    padding: 15px 0;
+    font-weight: bold;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    color: rgb(255, 187, 0);
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 .yellowtext {
@@ -50,12 +57,11 @@
 }
 
 .hero__img {
-    margin-right: 2em;
-    position: relative;
+    margin-right: 4em;
 }
 
 .hero__img img {
-    width: 50vw;
+    width: 100%;
 }
 
 
