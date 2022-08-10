@@ -1,1 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+.workingsteps .container{
+    font-family: Montserrat;
+    display: flex;
+    margin-bottom: 50px;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.workingsteps__text {
+    font-size: 1.7em;
+    color: #464646;
+}
+
+.workingsteps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 4em;
+    width: 80%;
+
+}
+
+.workingsteps__title {
+    font-family: Montserrat;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.workingsteps__item__square {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 4em;
+    height: 4em;
+    transition: ease-in-out 0.3s;
+    top: 0;
+    position: relative;
+}
+
+.workingsteps__item__square:hover {
+    top: -10px;
+}
+
+.workingsteps__item__square img {
+    width: 50%;
+    height: 50%;
+    padding: 17px 15px;
+}
+
+.workingsteps__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1em;
+}
+
+
