@@ -1,0 +1,17 @@
+.bookoptions__button{
+    margin-left: 3em;
+    border-style: none;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    color: #000000;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.bookoptions__button:hover{
+    transform: scale(1.1);
+}
+

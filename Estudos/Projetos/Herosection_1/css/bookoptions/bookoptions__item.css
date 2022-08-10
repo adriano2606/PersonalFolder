@@ -1,0 +1,12 @@
+.bookoptions__item {
+    display: flex;
+    margin-left: 6em;
+}
+
+.bookoptions__item p {
+    cursor: pointer;
+}
+
+.bookoptions__item:first-child{
+    margin-left: 0;
+}

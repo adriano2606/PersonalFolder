@@ -1,0 +1,22 @@
+.bookoption__item__icon{
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    margin-right: 0.5em;
+    position: relative;
+    bottom: 0.2em;
+}
+
+.bookoption__item__arrowicon {
+    width: 15px;
+    height: 15px;
+    background-size: cover;
+    margin-left: 0.8em;
+    position: relative;
+    top: 0.1em;
+}
+
+.bookoption__item__icon:hover, .bookoption__item__arrowicon:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
