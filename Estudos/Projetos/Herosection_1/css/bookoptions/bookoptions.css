@@ -1,8 +1,9 @@
 .bookoptions {
-    background-color: white;
-    height: 70vh;
+    background-color: #FFFFFF;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    row-gap: 6em;
+    justify-content: center;
+    row-gap: 7em;
 }

@@ -1,10 +1,14 @@
 .bookoptions__item {
     display: flex;
-    margin-left: 6em;
+    margin-left: 5em;
 }
 
 .bookoptions__item p {
     cursor: pointer;
+}
+
+.bookoptions__item p:hover {
+    transform: scale(1.1);
 }
 
 .bookoptions__item:first-child{

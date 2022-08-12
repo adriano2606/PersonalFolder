@@ -1,8 +1,9 @@
 .hero__img {
     margin-right: 4em;
-    width: 100%;
+    width: 80vw;
 }
 
 .hero__img img {
     width: 100%;
+    object-fit: contain;
 }
