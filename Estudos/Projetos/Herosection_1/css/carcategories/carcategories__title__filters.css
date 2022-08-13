@@ -1,0 +1,30 @@
+.carcategories__title__filters .container {
+    display: flex;
+}
+
+.carcategories__title__filters .container button {
+    border: 1px solid rgb(180, 180, 180) ;
+    background-color: white;
+    border-radius: 20px;
+    padding: 1em 2em;
+    font-size: 1.1em;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 1em;
+}
+
+.carcategories__title__filters .container button:hover {
+    background-color: rgb(255, 187, 0);
+    transform: scale(0.9)
+}
+
+.carcategories__title__filters .container .active {
+    background-color: rgb(255, 187, 0);
+    border-style: none;
+}
+
+.carcategories__title__filters .container h2 {
+    margin-right: 3em;
+}
