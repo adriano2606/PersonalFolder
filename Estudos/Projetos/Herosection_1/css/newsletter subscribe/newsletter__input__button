@@ -1,0 +1,36 @@
+.form__subscribe {
+    position: relative;
+}
+
+.sub__newsletter .container form input {
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(238, 238, 238);
+    height: 3.5em;
+    width: 40%;
+}
+
+input[type="email"] {
+    padding-left: 1em; 
+    font-family: var(--fontes);
+}
+
+.sub__newsletter .container form button {
+    position: absolute;
+    border-radius: 5px;
+    right: 31%;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: var(--cor1);
+    height: 60%;
+    top: 20%;
+    padding: 0 1em;
+    transition: ease 0.3s;
+    font-family: var(--fontes);
+}
+
+.sub__newsletter .container form button:hover {
+    background-color: black;
+    color:var(--cor1);
+}

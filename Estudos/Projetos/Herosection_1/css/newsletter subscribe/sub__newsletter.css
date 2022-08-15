@@ -1,0 +1,14 @@
+.sub__newsletter {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sub__newsletter .container {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
