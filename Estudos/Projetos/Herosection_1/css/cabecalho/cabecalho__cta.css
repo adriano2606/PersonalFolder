@@ -1,11 +1,11 @@
 .cabecalho__cta__signin {
-    border: 1px solid rgb(255, 187, 0);
+    border: 1px solid var(--cor1);
     background-color: white;
     border-radius: 20px;
     padding: 10px 30px;
     font-weight: bold;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
-    color: rgb(255, 187, 0);
+    color: var(--cor1);
     cursor: pointer;
     transition: 0.3s;
 }
@@ -17,7 +17,7 @@
 .cabecalho__cta__signup {
     margin-left: 1.5rem;
     border-style: none;
-    background-color:rgb(255, 187, 0);
+    background-color:var(--cor1);
     border-radius: 20px;
     padding: 10px 30px;
     font-weight: bold;

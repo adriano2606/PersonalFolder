@@ -1,6 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
 
+:root{
+    --cor1: rgb(255, 187, 0);
+    --cor2: #e4e4e4;
+    --fontes: Montserrat, Arial, Verdana, Helvetica, sans-serif;
+
+    font-family: var(--fontes);
+}
+
 .container {
     width: 94%;
     margin: 0 auto;
 }
+
+.clip-star {
+    background: var(--cor1);
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    transition: ease 0.3s;
+}
+
+.clip-star:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+/* End Common CSS */

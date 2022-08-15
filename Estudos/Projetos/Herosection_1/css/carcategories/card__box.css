@@ -7,7 +7,7 @@
 
 .card__box {
     background-color: rgb(255, 255, 255);
-    box-shadow: 2px 7px 10px 5px rgba(0, 0, 0, 15%);
+    box-shadow: 2px 7px 10px 5px rgba(0, 0, 0, 7%);
     width: 23%;
     height: 22em;
     margin: 1%;
@@ -16,11 +16,6 @@
     font-family: Montserrat;
     transition: ease 0.3s;
 }
-
-/*
-.card__box:hover {
-    transform: scale(1.050);
-} */
 
 .card__box:nth-child(4n) {
     margin-right: 0px;

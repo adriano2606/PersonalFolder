@@ -1,9 +1,7 @@
-
 .hero .container {
     display: flex;
     height: calc(100vh - 70px);
     align-items: center;
-    font-family: Montserrat, Arial, Helvetica, sans-serif;
 }
 
 

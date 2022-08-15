@@ -5,5 +5,5 @@
 
 .cabecalho__logo a {
     text-decoration: none;
-    color:rgb(255, 187, 0);
+    color: var(--cor1);
 }

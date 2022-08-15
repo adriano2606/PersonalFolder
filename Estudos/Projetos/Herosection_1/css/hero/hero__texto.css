@@ -13,7 +13,7 @@
 }
 
 .yellowtext {
-    color: rgb(255, 187, 0);
+    color:var(--cor1);
 }
 
 .hero__texto p {
@@ -30,8 +30,7 @@
     width: 50%;
     padding: 15px 0;
     font-size: 1.1em;
-    font-family: Montserrat, Arial, Helvetica, sans-serif;
-    color: rgb(255, 187, 0);
+    color: var(--cor1);
     cursor: pointer;
     transition: 0.3s;
 }

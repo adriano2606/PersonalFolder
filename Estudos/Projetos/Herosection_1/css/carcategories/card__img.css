@@ -28,7 +28,7 @@
 
 .eye__overlay:hover {
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale(1.4);
 }
 
 .card__img > img {

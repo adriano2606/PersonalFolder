@@ -1,0 +1,20 @@
+.testimonial__cards {
+    margin-top: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.testiominal_card {
+    padding: 1.5em 1em;
+    width: 20em;
+    height: 20em;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 7px 10px 5px rgba(0, 0, 0, 7%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}

@@ -8,7 +8,6 @@
     border-radius: 20px;
     padding: 1em 2em;
     font-size: 1.1em;
-    font-family: Montserrat, Arial, Helvetica, sans-serif;
     color: black;
     cursor: pointer;
     transition: 0.3s;
@@ -16,12 +15,12 @@
 }
 
 .carcategories__title__filters .container button:hover {
-    background-color: rgb(255, 187, 0);
+    background-color: var(--cor1);
     transform: scale(0.9)
 }
 
 .carcategories__title__filters .container .active {
-    background-color: rgb(255, 187, 0);
+    background-color: var(--cor1);
     border-style: none;
 }
 

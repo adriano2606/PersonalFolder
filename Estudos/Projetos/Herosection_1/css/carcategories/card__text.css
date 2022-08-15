@@ -21,7 +21,7 @@
 }
 
 .card__text__title a:hover{
-    color: rgb(255, 187, 0) ;
+    color: var(--cor1);
 }
 
 .card__price__stars {
@@ -32,20 +32,6 @@
 
 .card__price__stars p {
     font-size: 1.1em;
-}
-
-.clip-star {
-    background: rgb(255, 187, 0);
-    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-    display: inline-block;
-    height: 18px;
-    width: 18px;
-    transition: ease 0.3s;
-}
-
-.clip-star:hover {
-    transform: scale(1.2);
-    cursor: pointer;
 }
 
 .card__carconfig {
@@ -75,17 +61,16 @@
 
 .card__button button {
     border-style: none;
-    background-color: rgb(255, 187, 0);
+    background-color: var(--cor1);
     border-radius: 10px;
     font-size: 1.1em;
     width: 90%;
     height: 2.5em;
-    font-family: Montserrat, Arial, Helvetica, sans-serif;
     cursor: pointer;
     transition: ease 0.3s;
 }
 
 .card__button button:hover {
     background-color: black;
-    color: rgb(255, 187, 0)
+    color: var(--cor1);
 }
