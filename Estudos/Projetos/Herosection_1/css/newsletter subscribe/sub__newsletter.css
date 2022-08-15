@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #F1F1F1;
 }
 
 .sub__newsletter .container {

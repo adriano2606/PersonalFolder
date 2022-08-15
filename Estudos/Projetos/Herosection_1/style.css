@@ -29,63 +29,45 @@
 
 /* End Common CSS */
 
-.sub__newsletter {
-    height: 40vh;
+.rodape {
+    height: 60vh;
     display: flex;
-    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    background-color: var(--cor1);
 }
 
-.sub__newsletter .container {
-    height: 70%;
+.rodape .container {
+    width: 80%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rodape .container a {
+    color: black;
+    cursor: pointer;
+}
+
+.rodape .container div {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    text-align: center;
+    justify-content: flex-start;
+    width: 20%;
+    row-gap: 2em;
 }
 
-.sub__newsletter .container h1 {
-    font-size: 2em;
+.footer__logocolumn p {
+    font-size: 14px;
+    margin-right: 3em;
 }
 
-.sub__newsletter .container p {
-    margin: 0 18em;
+.rodape .container ul li {
+    margin-bottom: 1em;
 }
 
-
-.form__subscribe {
-    position: relative;
-}
-
-.sub__newsletter .container form input {
-    border-radius: 10px;
-    border: none;
-    background-color: rgb(238, 238, 238);
-    height: 3.5em;
-    width: 40%;
-}
-
-input[type="email"] {
-    padding-left: 1em; 
-    font-family: var(--fontes);
-}
-
-.sub__newsletter .container form button {
-    position: absolute;
-    border-radius: 5px;
-    right: 31%;
-    border: none;
-    cursor: pointer;
-    color: white;
-    background-color: var(--cor1);
-    height: 60%;
-    top: 20%;
-    padding: 0 1em;
-    transition: ease 0.3s;
-    font-family: var(--fontes);
-}
-
-.sub__newsletter .container form button:hover {
-    background-color: black;
-    color:var(--cor1);
+.footer__columntitle {
+    font-weight: bold;
+    font-size: 1.2em;
 }
