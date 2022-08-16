@@ -2,14 +2,14 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 6em;
+    margin-left: 96px;
 }
 
 .hero__texto h1 {
-    font-size: 3.2em;
+    font-size: 5.12rem;
     font-weight: bold;
-    line-height: 1.5em;
-    margin-bottom: 0.5em;
+    line-height: 8rem;
+    margin-bottom: 8px;
 }
 
 .yellowtext {
@@ -19,8 +19,8 @@
 .hero__texto p {
     color: white;
     font-size: 14.5px;
-    line-height: 1.5em;
-    margin-bottom: 2em;
+    line-height: 24px;
+    margin-bottom: 32px;
 }
 
 .hero__texto button {
@@ -29,7 +29,7 @@
     border-radius: 20px;
     width: 50%;
     padding: 15px 0;
-    font-size: 1.1em;
+    font-size: 1.76rem;
     color: var(--cor1);
     cursor: pointer;
     transition: 0.3s;

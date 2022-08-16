@@ -1,9 +1,9 @@
 .number{
-    font-size: 2em;
+    font-size: 3.2rem;
     justify-content: center;
     text-align: center;
-    line-height: 2em;
     font-weight: bold;
+    margin-top: 15px;
 }
 
 .workingsteps__item {
@@ -12,15 +12,14 @@
 }
 
 .workingsteps__item > p {
-    font-size: 1.5em;
+    font-size: 2.4rem;
 }
 
 .workingsteps__item__square {
     background-color: rgb(255, 187, 0);
     border-radius: 10px;
-    width: 4em;
-    height: 4em;
-    clip-path: circle(100%);
+    width: 64px;
+    height: 64px;
     transition: ease-in-out 0.3s;
     top: 0;
     position: relative;

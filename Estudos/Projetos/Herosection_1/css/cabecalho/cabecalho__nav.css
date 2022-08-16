@@ -3,9 +3,10 @@
 }
 
 .cabecalho__nav ul li{
-    margin-left: 2.5rem;
+    margin-left: 40px;
     cursor: pointer;
     transition: 0.3s;
+    font-size: 1.6rem;
 }
 
 .cabecalho__nav ul li:hover{

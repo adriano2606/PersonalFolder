@@ -6,6 +6,9 @@
     --fontes: Montserrat, Arial, Verdana, Helvetica, sans-serif;
 
     font-family: var(--fontes);
+    
+    /* A cada 1rem, será considerado 10px*/
+    font-size: 62.5%;
 }
 
 .container {
@@ -35,6 +38,7 @@
     align-items: center;
     justify-content: center;
     background-color: var(--cor1);
+    font-size: 1.6rem;
 }
 
 .rodape .container {
@@ -55,19 +59,19 @@
     flex-direction: column;
     justify-content: flex-start;
     width: 20%;
-    row-gap: 2em;
+    row-gap: 32px;
 }
 
 .footer__logocolumn p {
     font-size: 14px;
-    margin-right: 3em;
+    margin-right: 48px;
 }
 
 .rodape .container ul li {
-    margin-bottom: 1em;
+    margin-bottom: 16px;
 }
 
 .footer__columntitle {
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 19.2px;
 }

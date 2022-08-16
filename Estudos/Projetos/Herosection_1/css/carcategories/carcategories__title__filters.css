@@ -6,12 +6,12 @@
     border: 1px solid rgb(180, 180, 180) ;
     background-color: white;
     border-radius: 20px;
-    padding: 1em 2em;
-    font-size: 1.1em;
+    padding: 16px 32px;
+    font-size: 17.6px;
     color: black;
     cursor: pointer;
     transition: 0.3s;
-    margin-left: 1em;
+    margin-left: 16px;
 }
 
 .carcategories__title__filters .container button:hover {
@@ -25,5 +25,5 @@
 }
 
 .carcategories__title__filters .container h2 {
-    margin-right: 3em;
+    margin-right: 48px;
 }

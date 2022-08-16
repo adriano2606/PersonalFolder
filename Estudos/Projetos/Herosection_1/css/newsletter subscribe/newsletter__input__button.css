@@ -6,12 +6,12 @@
     border-radius: 10px;
     border: none;
     background-color: #FFFFFF;
-    height: 3.5em;
+    height: 56px;
     width: 40%;
 }
 
 input[type="email"] {
-    padding-left: 1em; 
+    padding-left: 16px; 
     font-family: var(--fontes);
 }
 
@@ -25,7 +25,7 @@ input[type="email"] {
     background-color: var(--cor1);
     height: 60%;
     top: 20%;
-    padding: 0 1em;
+    padding: 0 16px;
     transition: ease 0.3s;
     font-family: var(--fontes);
 }

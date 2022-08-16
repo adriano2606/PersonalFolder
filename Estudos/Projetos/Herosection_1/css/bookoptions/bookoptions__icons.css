@@ -2,18 +2,18 @@
     width: 20px;
     height: 20px;
     background-size: contain;
-    margin-right: 0.5em;
+    margin-right: 8px;
     position: relative;
-    bottom: 0.2em;
+    bottom: 3.2px;
 }
 
 .bookoption__item__arrowicon {
     width: 15px;
     height: 15px;
     background-size: cover;
-    margin-left: 0.8em;
+    margin-left: 12.8px;
     position: relative;
-    top: 0.1em;
+    top: 1.6px;
 }
 
 .bookoption__item__icon:hover, .bookoption__item__arrowicon:hover{
