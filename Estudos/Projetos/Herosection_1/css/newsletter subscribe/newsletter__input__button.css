@@ -6,26 +6,26 @@
     border-radius: 10px;
     border: none;
     background-color: #FFFFFF;
-    height: 56px;
-    width: 40%;
+    height: 5.6rem;
+    width: 50%;
 }
 
 input[type="email"] {
-    padding-left: 16px; 
+    padding-left: 1.6rem; 
     font-family: var(--fontes);
 }
 
 .sub__newsletter .container form button {
     position: absolute;
     border-radius: 5px;
-    right: 31%;
+    right: 27%;
     border: none;
     cursor: pointer;
     color: white;
     background-color: var(--cor1);
     height: 60%;
     top: 20%;
-    padding: 0 16px;
+    padding: 0 1.6rem;
     transition: ease 0.3s;
     font-family: var(--fontes);
 }

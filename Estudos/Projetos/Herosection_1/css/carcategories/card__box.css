@@ -1,15 +1,18 @@
+.card {
+}
+
 .card .container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 32px auto;
+    margin: 3.2rem auto;
 }
 
 .card__box {
     background-color: rgb(255, 255, 255);
     box-shadow: 2px 7px 10px 5px rgba(0, 0, 0, 7%);
-    width: 23%;
-    height: 352px;
+    width: 23.5%;
+    height: 35.2rem;
     margin: 1%;
     border-radius: 10px;
     overflow: hidden;

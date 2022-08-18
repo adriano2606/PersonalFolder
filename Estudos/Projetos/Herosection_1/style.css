@@ -8,11 +8,11 @@
     font-family: var(--fontes);
     
     /* A cada 1rem, será considerado 10px*/
-    font-size: 62.5%;
+    font-size: 65.5%;
 }
 
 .container {
-    width: 94%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -20,8 +20,8 @@
     background: var(--cor1);
     clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
     display: inline-block;
-    height: 18px;
-    width: 18px;
+    height: 1.8rem;
+    width: 1.8rem;
     transition: ease 0.3s;
 }
 
@@ -59,19 +59,26 @@
     flex-direction: column;
     justify-content: flex-start;
     width: 20%;
-    row-gap: 32px;
+    row-gap: 3.2rem;
 }
 
 .footer__logocolumn p {
-    font-size: 14px;
-    margin-right: 48px;
+    font-size: 1.4rem;
+    margin-right: 4.8re,;
 }
 
 .rodape .container ul li {
-    margin-bottom: 16px;
+    margin-bottom: 1.6rem;
 }
 
 .footer__columntitle {
     font-weight: bold;
-    font-size: 19.2px;
+    font-size: 1.92rem;
 }
+
+
+/* RESPONSIVIDADE */
+
+
+
+

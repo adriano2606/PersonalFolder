@@ -1,9 +1,7 @@
 .testimonial {
-    height: 100vh;
     text-align: center;
 }
 
 .testimonial .container {
-    width: 100%;
-    margin: 80px 0;
+    margin-bottom: 10rem;
 }

@@ -1,14 +1,16 @@
 .testimonial__cards {
-    margin-top: 64px;
+    margin-top: 6.4rem;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 8rem;
 }
 
 .testiominal_card {
-    padding: 24px 16px;
-    width: 320px;
-    height: 320px;
+    padding: 2.4rem 1.6rem;
+    width: 25rem;
+    height: 25rem;
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
     box-shadow: 2px 7px 10px 5px rgba(0, 0, 0, 7%);

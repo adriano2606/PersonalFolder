@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: center;
     background-color: #F1F1F1;
+    font-size: 1.6rem;
 }
 
 .sub__newsletter .container {

@@ -1,6 +1,6 @@
 .testiominal_card p {
     color: rgb(138, 138, 138);
-    margin: 0 24px;
+    margin: 0 2rem;
 }
 
 .testiominal_card h1 {
@@ -9,7 +9,7 @@
 } 
 
 .testimonal__name__star__rate {
-    height: 80px;
+    height: 8rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;

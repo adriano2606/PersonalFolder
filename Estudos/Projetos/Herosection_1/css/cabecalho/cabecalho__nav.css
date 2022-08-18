@@ -1,9 +1,10 @@
 .cabecalho__nav ul {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .cabecalho__nav ul li{
-    margin-left: 40px;
+    margin-left: 4rem;
     cursor: pointer;
     transition: 0.3s;
     font-size: 1.6rem;
