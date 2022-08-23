@@ -1,0 +1,16 @@
+.header__nav {
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav__link{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.nav__item {
+    margin: 1rem 1.5rem 1rem 1.5rem;
+}

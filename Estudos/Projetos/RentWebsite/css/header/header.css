@@ -1,0 +1,11 @@
+.header .container {
+    min-height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header {
+    background-color: #161616;
+}

@@ -1,13 +1,18 @@
 .cabecalho__nav ul {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
 }
 
 .cabecalho__nav ul li{
-    margin-left: 4rem;
     cursor: pointer;
     transition: 0.3s;
     font-size: 1.6rem;
+    margin-left: 2rem;
+}
+
+.cabecalho__nav ul li:first-child{
+    margin-left: 0rem;
 }
 
 .cabecalho__nav ul li:hover{

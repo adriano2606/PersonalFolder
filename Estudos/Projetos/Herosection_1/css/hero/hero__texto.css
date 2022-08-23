@@ -1,15 +1,15 @@
 .hero__texto {
-    height: 60%;
+    min-height: 30rem;
+    max-width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-around; 
-    flex-shrink: 1;
 }
 
 .hero__texto h1 {
     font-size: 5.12rem;
     font-weight: bold;
-    line-height: 8rem;
+    line-height: 5rem;
 }
 
 .yellowtext {
@@ -17,7 +17,6 @@
 }
 
 .hero__texto p {
-    color: white;
     font-size: 1.45rem;
     line-height: 2.4rem;
 }
@@ -26,7 +25,7 @@
     border-style: none;
     background-color: #000000;
     border-radius: 20px;
-    width: 50%;
+    max-width: 50%;
     padding: 1.5rem 0;
     font-size: 1.76rem;
     color: var(--cor1);

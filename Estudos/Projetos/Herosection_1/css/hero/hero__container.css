@@ -1,10 +1,12 @@
 .hero {
+    background-color: blue;
 }
 
 .hero .container {
-    height: calc(100vh - 70px);
+    min-height: calc(100vh - 70px);
     display: flex;
     align-items: center;
+    background-color: red;
 }
 
 

@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+:root {
+    --cor1: rgb(255, 187, 0);
+    --cor2: #e4e4e4;
+    --fontes: Montserrat, Arial, Verdana, Helvetica, sans-serif;
+    font-size: 65.5%;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+
+
