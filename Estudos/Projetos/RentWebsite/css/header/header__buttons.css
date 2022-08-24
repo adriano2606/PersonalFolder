@@ -23,12 +23,12 @@
     border: 0.1rem solid var(--cor1);
     background-color:var(--cor1);
     color: white;
-    margin-left: 1rem;
+    margin-left: 0.7rem;
 }
 
 .signin__button{
     border: 0.1rem solid white;
     background-color: white;
     color: var(--cor1);
-    margin-right: 1rem;
+    margin-right: 0.7rem;
 }

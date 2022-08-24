@@ -12,7 +12,7 @@
     background-color: #FFFFFF;
 }
 
-@media (max-width: 797px) {
+@media (max-width: 773px) {
     .hamburguer {
         display: block;
     }
@@ -44,12 +44,8 @@
     .header__nav.active {
         left: 0%;
     }
-
-    .signin__button{
-        margin-left: 2rem;
-    }
-    
 }
+
 
 
 

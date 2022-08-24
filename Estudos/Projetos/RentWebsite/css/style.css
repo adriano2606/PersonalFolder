@@ -13,48 +13,35 @@
     margin: 0 auto;
 }
 
-/* ---Start Responsivity---*/
-
-
-/*Mobile - Portátil L*/
-@media (min-width: 1440px) {
-    :root{
-        font-size: 100%;
-    }
-}
-
-/*Mobile - Device G*/
-@media (max-width: 425px) {
-    :root{
-        font-size: 55.5%;
-    }
-
+/* General settings for mobile */
+@media (min-width: 0px) and (max-width: 425px) {
     .container {
-        width: 95%;
+        width: 100%;
         margin: 0 auto;
     }
+
+    .nav__link{
+        padding: 0rem 5rem;
+    }
 }
 
-/*Mobile - Device M*/
-@media (max-width: 375px) {
-    :root{
+/* Mobile P */
+@media (min-width: 0px) and (max-width: 320px) {
+    :root {
         font-size: 50%;
     }
 }
 
-/*Mobile - Device P*/
-@media (max-width: 320px) {
-    :root{
-        font-size: 48%;
+/* Mobile M */
+@media (min-width: 321px) and (max-width: 375px ) {
+    :root {
+        font-size: 55%;
     }
 }
 
-/* ---End Responsivity---*/
-
-
-
-
-
-
-
-
+/* Mobile G */
+@media (min-width: 376px) and (max-width: 425px ) {
+    :root {
+        font-size: 60%;
+    }
+}
