@@ -44,6 +44,11 @@
     .header__nav.active {
         left: 0%;
     }
+
+    .signin__button{
+        margin-left: 2rem;
+    }
+    
 }
 
 
