@@ -12,7 +12,7 @@
     background-color: #FFFFFF;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 797px) {
     .hamburguer {
         display: block;
     }
@@ -42,7 +42,12 @@
     }
     
     .header__nav.active {
-        left:0%;
+        left: 0%;
     }
 }
+
+
+
+
+
 

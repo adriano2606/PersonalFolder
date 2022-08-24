@@ -13,6 +13,7 @@
     cursor: pointer;
     transition: 0.3s;
     border-radius: 20px;
+    margin-left: 2rem;
 }
 
 .header__buttons  button:hover {
@@ -20,14 +21,12 @@
 }
 
 .signup__button {
-    margin-left: 2rem;
     border: 0.1rem solid var(--cor1);
     background-color:var(--cor1);
     color: white;
 }
 
 .signin__button{
-    margin-left: 2rem;
     border: 0.1rem solid white;
     background-color: white;
     color: var(--cor1);

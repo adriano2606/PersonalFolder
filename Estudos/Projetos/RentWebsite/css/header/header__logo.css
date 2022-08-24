@@ -5,5 +5,5 @@
 
 .header__logo a {
     text-decoration: none;
-    color: gold;
+    color: var(--cor1);
 }

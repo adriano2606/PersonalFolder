@@ -13,6 +13,47 @@
     margin: 0 auto;
 }
 
+/* ---Start Responsivity---*/
+
+
+/*Mobile - Portátil L*/
+@media (min-width: 1440px) {
+    :root{
+        font-size: 100%;
+    }
+}
+
+/*Mobile - Device G*/
+@media (max-width: 425px) {
+    :root{
+        font-size: 55.5%;
+    }
+
+    .container {
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+
+/*Mobile - Device M*/
+@media (max-width: 375px) {
+    :root{
+        font-size: 50%;
+    }
+}
+
+/*Mobile - Device P*/
+@media (max-width: 320px) {
+    :root{
+        font-size: 48%;
+    }
+}
+
+/* ---End Responsivity---*/
+
+
+
+
 
 
 
